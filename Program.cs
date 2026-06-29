@@ -8,7 +8,15 @@ public static void Main(string[] args)
         string email;
         */
 
-        Console.WriteLine("Enter Your Name :");
+       /* Program2 p2 = new Program2();
+        p2.GetInput();
+        */
+        
+
+        Program3 p3 = new Program3();
+        p3.CalculateMarks();
+
+      /*  Console.WriteLine("Enter Your Name :");
         string Name = Convert.ToString(Console.ReadLine());
 
          Console.WriteLine("Enter Your RollNo :");
@@ -26,7 +34,7 @@ public static void Main(string[] args)
         Console.WriteLine("Your RollNo is :"+RollNo);
 
         Console.WriteLine("Your Email Address is :"+Email);
-     
+     */
 
     }
 }
